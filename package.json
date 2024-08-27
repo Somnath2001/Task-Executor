@@ -1,0 +1,22 @@
+{
+  "name": "task-executor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cluster": "^0.7.7",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "fs": "^0.0.1-security",
+    "ioredis": "^5.4.1",
+    "nodemon": "^3.1.4",
+    "redis": "^4.7.0"
+  }
+}
